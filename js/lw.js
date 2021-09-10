@@ -366,7 +366,7 @@ function yxd(){
     document.body.innerHTML = `<div class="photo">
                                 
                                 
-                                <img src="../img/d.jpg">
+                                <img src="../img/d.jpg" max-width:100%;>
 
                                 </div>
                                 <div class="heart"></div>
@@ -426,7 +426,7 @@ function yxd(){
 
 function zyf(){
     document.body.innerHTML = `<div class="photo">
-                                     <img src="../img/z.jpg">
+                                     <img src="../img/z.jpg" max-width:100%;>
                                     <!--<video src="../video/95e5ef2c7d1c4acfcce0caedbebf231d.mp4" controls = 'controls' autoplay="autoplay" loop='loop' preload></video>-->
                                 </div>
                                 <div class="heart"></div>
@@ -484,7 +484,7 @@ function zyf(){
 }
 function yx(){
     document.body.innerHTML = `<div class="photo">
-                                     <img src="../img/x.jpg">
+                                     <img src="../img/x.jpg" max-width:100%;>
                                 </div>
                                 <div class="heart"></div>
                                 <embed src="../radio/wxh.mp3" width=50px height=50px type=audio/mpeg loop="true" autostart="true" >
